@@ -65,7 +65,7 @@ const uint16_t colors[] = {
 void setup() {
   matrix.begin();
   matrix.setTextWrap(false);
-  matrix.setBrightness(100);
+  matrix.setBrightness(10); //10 is good for night time, 100 is what I default to
   matrix.setTextColor(colors[1]);
 }
 
