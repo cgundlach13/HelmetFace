@@ -30,12 +30,6 @@ char Msg1[] = "OwO";
 //   NEO_GRBW    Pixels are wired for GRBW bitstream (RGB+W NeoPixel products)
 //   NEO_RGB     Pixels are wired for RGB bitstream (v1 FLORA pixels, not v2)
 
-
-// Example for NeoPixel Shield.  In this application we'd like to use it
-// as a 5x8 tall matrix, with the USB port positioned at the top of the
-// Arduino.  When held that way, the first pixel is at the top right, and
-// lines are arranged in columns, progressive order.  The shield uses
-// 800 KHz (v2) pixels that expect GRB color data.
 Adafruit_NeoMatrix matrix = Adafruit_NeoMatrix(32, 8, 6,
 NEO_MATRIX_BOTTOM + NEO_MATRIX_RIGHT +
 NEO_MATRIX_COLUMNS + NEO_MATRIX_ZIGZAG,
